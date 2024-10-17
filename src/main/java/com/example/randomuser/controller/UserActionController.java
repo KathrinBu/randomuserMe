@@ -1,6 +1,5 @@
 package com.example.randomuser.controller;
 
-import com.example.randomuser.service.RandomUserService;
 import com.example.randomuser.service.UserActionRandomService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
