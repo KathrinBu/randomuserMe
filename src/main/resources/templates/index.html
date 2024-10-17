@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Management</title>
+</head>
+<body>
+<h2>Выберите действие</h2>
+<form action="/user-action" method="post">
+    <label for="command">Команда:</label>
+    <select id="command" name="action">
+        <option value="load">Загрузить пользователей</option>
+        <option value="export">Экспортировать пользователей</option>
+        <option value="random">Загрузить случайных пользователей</option>
+    </select>
+    <br><br>
+    <label for="firstName">Имя (для самостоятельной загрузки):</label>
+    <input type="text" id="firstName" name="firstName">
+    <br><br>
+    <label for="lastName">Фамилия (для самостоятельной загрузки):</label>
+    <input type="text" id="lastName" name="lastName">
+    <br><br>
+    <label for="email">Email (для самостоятельной загрузки):</label>
+    <input type="email" id="email" name="email">
+    <br><br>
+    <label for="filePath">Путь к файлу (только для экспорта):</label>
+    <input type="text" id="filePath" name="filePath">
+    <br><br>
+    <button type="submit">Выполнить</button>
+</form>
+</body>
+</html>

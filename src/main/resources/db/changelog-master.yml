@@ -1,0 +1,3 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/v1/v1_create_table_users.yml
